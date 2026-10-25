@@ -1,0 +1,21 @@
+{
+  "name": "pw8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "code": "npx playwright codegen",
+    "report": "npx playwright show-report",
+    "t": "npx playwright test",
+    "test": "npx playwright test",
+    "dz": "npx playwright test -c dz/playwright.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^10.6.0",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.3"
+  }
+}
